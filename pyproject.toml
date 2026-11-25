@@ -1,0 +1,20 @@
+[project]
+name = "1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Shu Adachi", email = "s2622001@stu.musashino-u.ac.jp" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+1 = "_1:main"
+
+[tool.uv.build-backend]
+module-name = "_1"
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14.0"]
+build-backend = "uv_build"
