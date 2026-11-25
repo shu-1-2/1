@@ -7,7 +7,9 @@ authors = [
     { name = "Shu Adachi", email = "s2622001@stu.musashino-u.ac.jp" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "fret>=0.3.5",
+]
 
 [project.scripts]
 1 = "_1:main"
